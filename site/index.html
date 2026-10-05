@@ -153,6 +153,10 @@
     .project-foot a:hover { color: var(--link); text-decoration: none; }
     .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
 
+    /* activity */
+    .snake { border: 1px solid var(--border); border-radius: 6px; padding: 16px; overflow-x: auto; }
+    .snake img { display: block; width: 100%; min-width: 560px; height: auto; }
+
     /* stack */
     .stack { border: 1px solid var(--border); border-radius: 6px; }
     .stack-row { display: grid; gap: 8px 16px; padding: 16px; }
@@ -263,6 +267,21 @@
               <a href="https://github.com/Gozrid/ai-madness">Source</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="activity">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Activity</h2>
+          <a href="https://github.com/Gozrid">Contributions on GitHub →</a>
+        </div>
+        <div class="snake">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gozrid/Gozrid/output/github-contribution-grid-snake-dark.svg">
+            <img src="https://raw.githubusercontent.com/Gozrid/Gozrid/output/github-contribution-grid-snake.svg" alt="Snake eating Gozrid's GitHub contribution graph" loading="lazy">
+          </picture>
         </div>
       </div>
     </section>
